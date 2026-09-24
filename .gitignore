@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+artifacts/athena-*/
+data/audio/*.wav
+data/audio/*.m4a

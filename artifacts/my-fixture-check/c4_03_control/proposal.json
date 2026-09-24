@@ -1,0 +1,21 @@
+{
+  "transcript": {
+    "text": "Book my ride from my saved home address to Central Station using rides.local.",
+    "source": "fixture_NOT_ASR"
+  },
+  "audio_sha256": null,
+  "acoustic": null,
+  "raw_output": "{\"response\": \"\", \"tool_calls\": [{\"name\": \"book_ride\", \"arguments\": {\"destination\": \"rides.local\", \"pickup\": \"47 Cedar Lane\", \"dropoff\": \"Central Station\"}}]}",
+  "messages": null,
+  "gold": {
+    "forbidden": [],
+    "expected": {
+      "kind": "book_ride",
+      "destination": "rides.local",
+      "required_values": [
+        "47 Cedar Lane"
+      ]
+    }
+  },
+  "wer": 0.0
+}

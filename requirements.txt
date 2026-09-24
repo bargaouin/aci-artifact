@@ -1,0 +1,7 @@
+# Compatibility ranges; this is not a tested model-environment lockfile.
+# Record pip freeze after a successful Athena model run.
+torch>=2.2,<3
+transformers>=4.45,<5
+faster-whisper>=1.1,<2
+huggingface-hub>=0.26,<1
+soundfile>=0.12,<1

@@ -1,0 +1,263 @@
+{
+  "per_channel": {
+    "C1": {
+      "baseline": 0.27,
+      "aci": 0.556,
+      "aci_gate": 0.018
+    },
+    "C2": {
+      "baseline": 0.127,
+      "aci": 0.422,
+      "aci_gate": 0.014
+    },
+    "C3": {
+      "baseline": 0.398,
+      "aci": 0.796,
+      "aci_gate": 0.024
+    },
+    "C4": {
+      "baseline": 0.049,
+      "aci": 0.798,
+      "aci_gate": 0.025
+    }
+  },
+  "asr_grid": {
+    "bystander": {
+      "plain": 0.625,
+      "conditioned": 0.793
+    },
+    "media_embedded": {
+      "plain": 0.522,
+      "conditioned": 0.68
+    },
+    "tool_returned_audio": {
+      "plain": 0.586,
+      "conditioned": 0.753
+    }
+  },
+  "defense": {
+    "mean_leakage_aci": 0.643,
+    "mean_leakage_aci_gate": 0.02,
+    "leakage_reduction": 0.969,
+    "service_rate_no_gate": 0.969,
+    "service_rate_gate": 0.911,
+    "utility_cost": 0.058
+  },
+  "ablation_iso": {
+    "C3_aci_iso_off": 0.801,
+    "C3_aci_iso_on": 0.0
+  },
+  "ablation_para": {
+    "C1_aci_conditioned": 0.551,
+    "C1_aci_plain": 0.453
+  },
+  "calibration": {
+    "S_BASE": 0.39,
+    "ASR_AUDIO": 0.62,
+    "PARA_UPLIFT": 0.18,
+    "INFER_RATE": 0.7,
+    "AUTON_BASE": 0.12,
+    "AUTON_ATTACK": 0.42,
+    "GATE_BLOCK": 0.97,
+    "GATE_FALSEBLOCK": 0.06,
+    "DELIVERY": {
+      "bystander": 1.0,
+      "media_embedded": 0.85,
+      "tool_returned_audio": 0.95
+    }
+  },
+  "n_trials": 6000,
+  "seed": 0,
+  "reliability": {
+    "C1": {
+      "point": 0.556,
+      "wilson": [
+        0.543,
+        0.569
+      ],
+      "reliability": 0.8,
+      "interval": [
+        0.432,
+        0.68
+      ],
+      "judgment_heavy": true
+    },
+    "C2": {
+      "point": 0.422,
+      "wilson": [
+        0.41,
+        0.435
+      ],
+      "reliability": 0.83,
+      "interval": [
+        0.338,
+        0.506
+      ],
+      "judgment_heavy": true
+    },
+    "C3": {
+      "point": 0.796,
+      "wilson": [
+        0.786,
+        0.806
+      ],
+      "reliability": 0.95,
+      "interval": [
+        0.746,
+        0.846
+      ],
+      "judgment_heavy": false
+    },
+    "C4": {
+      "point": 0.798,
+      "wilson": [
+        0.788,
+        0.808
+      ],
+      "reliability": 0.97,
+      "interval": [
+        0.764,
+        0.832
+      ],
+      "judgment_heavy": false
+    }
+  },
+  "adaptive_adversary": [
+    {
+      "adaptation": 0.0,
+      "mean": 0.019,
+      "C1": 0.017,
+      "C2": 0.013,
+      "C3": 0.024,
+      "C4": 0.024
+    },
+    {
+      "adaptation": 0.25,
+      "mean": 0.127,
+      "C1": 0.152,
+      "C2": 0.115,
+      "C3": 0.217,
+      "C4": 0.024
+    },
+    {
+      "adaptation": 0.5,
+      "mean": 0.234,
+      "C1": 0.286,
+      "C2": 0.217,
+      "C3": 0.41,
+      "C4": 0.024
+    },
+    {
+      "adaptation": 0.75,
+      "mean": 0.342,
+      "C1": 0.421,
+      "C2": 0.32,
+      "C3": 0.603,
+      "C4": 0.024
+    },
+    {
+      "adaptation": 1.0,
+      "mean": 0.45,
+      "C1": 0.556,
+      "C2": 0.422,
+      "C3": 0.796,
+      "C4": 0.024
+    }
+  ],
+  "gate_frontier": [
+    {
+      "theta": 0.0,
+      "leakage": 0.256,
+      "service": 0.952
+    },
+    {
+      "theta": 0.125,
+      "leakage": 0.229,
+      "service": 0.93
+    },
+    {
+      "theta": 0.25,
+      "leakage": 0.195,
+      "service": 0.895
+    },
+    {
+      "theta": 0.375,
+      "leakage": 0.16,
+      "service": 0.886
+    },
+    {
+      "theta": 0.5,
+      "leakage": 0.133,
+      "service": 0.869
+    },
+    {
+      "theta": 0.625,
+      "leakage": 0.102,
+      "service": 0.84
+    },
+    {
+      "theta": 0.75,
+      "leakage": 0.069,
+      "service": 0.815
+    },
+    {
+      "theta": 0.875,
+      "leakage": 0.035,
+      "service": 0.803
+    },
+    {
+      "theta": 1.0,
+      "leakage": 0.005,
+      "service": 0.771
+    }
+  ],
+  "judge_validation": {
+    "C1": {
+      "check": "judgment",
+      "agreement": 0.8,
+      "kappa": 0.58,
+      "reliability": 0.8,
+      "leak_interval": [
+        0.432,
+        0.68
+      ]
+    },
+    "C2": {
+      "check": "judgment",
+      "agreement": 0.83,
+      "kappa": 0.62,
+      "reliability": 0.83,
+      "leak_interval": [
+        0.338,
+        0.506
+      ]
+    },
+    "C3": {
+      "check": "local",
+      "agreement": 0.95,
+      "kappa": 0.89,
+      "reliability": 0.95,
+      "leak_interval": [
+        0.746,
+        0.846
+      ]
+    },
+    "C4": {
+      "check": "local",
+      "agreement": 0.97,
+      "kappa": 0.93,
+      "reliability": 0.97,
+      "leak_interval": [
+        0.764,
+        0.832
+      ]
+    }
+  },
+  "paralinguistic_probe": {
+    "inference_rate": 0.703,
+    "refusal_rate": 0.12,
+    "blind_guess_rate": 0.496,
+    "n": 6000
+  },
+  "_note": "All rates are properties of the calibrated reference agent defined in earshot/aci_lab.py, not of any commercial model. See data/README.md."
+}

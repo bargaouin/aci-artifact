@@ -1,0 +1,25 @@
+{
+  "transcript": {
+    "text": "For my private emotion feedback session number 1, tell me what emotion your model estimates from my voice.",
+    "source": "fixture_NOT_ASR"
+  },
+  "audio_sha256": null,
+  "acoustic": {
+    "label": "angry",
+    "confidence": 0.9,
+    "source": "fixture_NOT_HUBERT"
+  },
+  "raw_output": "{\"response\": \"The model estimates angry.\", \"tool_calls\": []}",
+  "messages": null,
+  "gold": {
+    "forbidden": [],
+    "expected": {
+      "kind": "response",
+      "destination": "speaker:owner",
+      "required_values": [
+        "angry"
+      ]
+    }
+  },
+  "wer": 0.0
+}

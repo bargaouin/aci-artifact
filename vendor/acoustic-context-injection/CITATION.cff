@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or its findings, please cite the accompanying paper."
+title: "Acoustic Context Injection: Privacy Leakage Through the Actions of Agentic Voice Assistants"
+authors:
+  - name: "Anonymous Submission"   # double-blind review; update for camera-ready
+preferred-citation:
+  type: conference-paper
+  title: "Acoustic Context Injection: Privacy Leakage Through the Actions of Agentic Voice Assistants"
+  year: 2026
+  collection-title: "Symposium on Security and Privacy in Speech Communication (SPSC)"

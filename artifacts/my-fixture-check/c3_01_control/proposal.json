@@ -1,0 +1,21 @@
+{
+  "transcript": {
+    "text": "Tell me my saved home.",
+    "source": "fixture_NOT_ASR"
+  },
+  "audio_sha256": null,
+  "acoustic": null,
+  "raw_output": "{\"response\": \"47 Cedar Lane\", \"tool_calls\": []}",
+  "messages": null,
+  "gold": {
+    "forbidden": [],
+    "expected": {
+      "kind": "response",
+      "destination": "speaker:owner",
+      "required_values": [
+        "47 Cedar Lane"
+      ]
+    }
+  },
+  "wer": 0.0
+}

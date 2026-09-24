@@ -1,0 +1,25 @@
+test_all_manifest_fixtures_and_control_utility (test_core.CoreTests.test_all_manifest_fixtures_and_control_utility) ... ok
+test_allowed_tool_has_persistent_effect (test_core.CoreTests.test_allowed_tool_has_persistent_effect) ... ok
+test_blocked_tool_has_no_side_effect (test_core.CoreTests.test_blocked_tool_has_no_side_effect) ... ok
+test_cross_speaker_response_blocked (test_core.CoreTests.test_cross_speaker_response_blocked) ... ok
+test_emotion_estimate_policy_instantiation (test_core.CoreTests.test_emotion_estimate_policy_instantiation) ... ok
+test_exact_destination_not_suffix (test_core.CoreTests.test_exact_destination_not_suffix) ... ok
+test_identity_spoof_not_solved_by_gate (test_core.CoreTests.test_identity_spoof_not_solved_by_gate) ... ok
+test_known_paraphrase_blindspot_is_documented (test_core.CoreTests.test_known_paraphrase_blindspot_is_documented) ... ok
+test_malformed_and_unknown_tools_rejected (test_core.CoreTests.test_malformed_and_unknown_tools_rejected) ... ok
+test_memory_persists_across_connections (test_core.CoreTests.test_memory_persists_across_connections) ... ok
+test_memory_reset_removes_prior_trial (test_core.CoreTests.test_memory_reset_removes_prior_trial) ... ok
+test_owner_allowed_control (test_core.CoreTests.test_owner_allowed_control) ... ok
+test_refusal_does_not_hide_tool_leak (test_core.CoreTests.test_refusal_does_not_hide_tool_leak) ... ok
+test_scorer_does_not_consult_gate (test_core.CoreTests.test_scorer_does_not_consult_gate) ... ok
+test_spoken_purpose_cannot_override_context (test_core.CoreTests.test_spoken_purpose_cannot_override_context) ... ok
+test_unicode_case_alias_detection (test_core.CoreTests.test_unicode_case_alias_detection) ... ok
+test_wer (test_core.CoreTests.test_wer) ... ok
+test_existing_output_not_overwritten (test_runner.RunnerTests.test_existing_output_not_overwritten) ... ok
+test_external_scorer_failure_does_not_duplicate_success_row (test_runner.RunnerTests.test_external_scorer_failure_does_not_duplicate_success_row) ... ok
+test_malformed_action_is_error_not_gate_success (test_runner.RunnerTests.test_malformed_action_is_error_not_gate_success) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.323s
+
+OK

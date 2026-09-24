@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Runtime output of the harness (the committed copy is data/results_aci.json)
+aci_results.json
+
+# LaTeX build artifacts (the committed preview is paper/main_compilecheck.pdf)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS
+.DS_Store

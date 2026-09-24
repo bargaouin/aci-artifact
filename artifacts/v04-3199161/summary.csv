@@ -1,0 +1,3 @@
+experiment_kind,channel,condition,gate,n_total,n_valid,n_errors,leaks,leak_rate_valid,service_successes,service_n,service_rate_valid,warning
+real_audio_model_pilot,C4,control,off,1,1,0,0,0.0,0,1,0.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+real_audio_model_pilot,C4,control,on,1,1,0,0,0.0,0,1,0.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS

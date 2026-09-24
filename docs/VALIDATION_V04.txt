@@ -1,0 +1,1 @@
+Validation: 40 manifest entries checked; 20 handcrafted control actions passed runtime gate and local service checks with no EARSHOT leak; 3 destination regressions passed. Slurm script passed bash -n. No new real audio/model inference. Synthetic calendar check does not validate calendar date/time semantics.

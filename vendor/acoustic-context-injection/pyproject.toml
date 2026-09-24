@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "earshot-eval"
+version = "0.1.0"
+description = "Earshot and the ACI attack-and-defense lab for agentic voice-assistant privacy."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "The Earshot Authors" }]
+keywords = [
+  "voice privacy", "speech language models", "contextual integrity",
+  "agent privacy", "evaluation", "speaker anonymization",
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+]
+dependencies = []   # core harness is pure standard library
+
+[project.optional-dependencies]
+openai = ["openai>=1.40"]
+anthropic = ["anthropic>=0.40"]
+dev = ["pytest>=7"]
+
+[project.urls]
+Paper = "https://www.spsc-symposium.de/"
+
+[project.scripts]
+earshot = "earshot.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["earshot*"]

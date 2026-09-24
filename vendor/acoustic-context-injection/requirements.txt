@@ -1,0 +1,5 @@
+# The harness core runs on the standard library alone.
+# These are optional, only needed for the real-model adapters:
+openai>=1.40        # --adapter openai, --adapter openai-audio
+anthropic>=0.40     # --adapter anthropic
+# Qwen2-Audio (local) additionally needs: transformers, torch, and a TTS engine.

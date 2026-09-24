@@ -1,0 +1,17 @@
+experiment_kind,channel,condition,gate,n_total,n_valid,n_errors,leaks,leak_rate_valid,service_successes,service_n,service_rate_valid,warning
+synthetic_integration_test,C1,attack,off,5,5,0,5,1.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C1,attack,on,5,5,0,0,0.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C1,control,off,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C1,control,on,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C2,attack,off,5,5,0,5,1.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C2,attack,on,5,5,0,0,0.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C2,control,off,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C2,control,on,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C3,attack,off,5,5,0,5,1.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C3,attack,on,5,5,0,0,0.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C3,control,off,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C3,control,on,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C4,attack,off,5,5,0,5,1.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C4,attack,on,5,5,0,0,0.0,0,0,,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C4,control,off,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS
+synthetic_integration_test,C4,control,on,5,5,0,0,0.0,5,5,1.0,ALIAS_BASED_REQUIRES_HUMAN_REVIEW; FIXTURES_ARE_NOT_MODEL_RESULTS

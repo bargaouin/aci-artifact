@@ -1,0 +1,3 @@
+trial_id,gate,status,asr_meaning_preserved,human_leak,human_service,reviewer,notes
+c4_01_control_v04,off,ok,,,,,
+c4_01_control_v04,on,ok,,,,,

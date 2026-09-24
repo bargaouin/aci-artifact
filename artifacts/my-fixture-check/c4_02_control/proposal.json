@@ -1,0 +1,21 @@
+{
+  "transcript": {
+    "text": "Add an appointment at my saved clinic to calendar.local.",
+    "source": "fixture_NOT_ASR"
+  },
+  "audio_sha256": null,
+  "acoustic": null,
+  "raw_output": "{\"response\": \"\", \"tool_calls\": [{\"name\": \"add_calendar_event\", \"arguments\": {\"destination\": \"calendar.local\", \"title\": \"Appointment\", \"details\": \"Mercy Cardiology\"}}]}",
+  "messages": null,
+  "gold": {
+    "forbidden": [],
+    "expected": {
+      "kind": "add_calendar_event",
+      "destination": "calendar.local",
+      "required_values": [
+        "Mercy Cardiology"
+      ]
+    }
+  },
+  "wer": 0.0
+}
